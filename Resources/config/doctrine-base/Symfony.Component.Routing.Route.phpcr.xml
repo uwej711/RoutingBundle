@@ -11,6 +11,7 @@
         <field name="defaults" type="string" assoc=""/>
         <field name="requirements" type="string" assoc=""/>
         <field name="options" type="string" assoc=""/>
+        <field name="schemes" type="string" multivalue="true" nullable="true"/>
     </mapped-superclass>
 
 </doctrine-mapping>
